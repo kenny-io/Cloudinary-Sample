@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CloudinarSample.iml" filepath="$PROJECT_DIR$/CloudinarSample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Cloudinary-Sample.iml" filepath="$PROJECT_DIR$/Cloudinary-Sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
