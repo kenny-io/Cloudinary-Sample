@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
         fab = findViewById(R.id.fab);
 
-        MediaManager.init(this);
+        MediaManager.init(this, new BackendServerSignatureProvider());
 
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
