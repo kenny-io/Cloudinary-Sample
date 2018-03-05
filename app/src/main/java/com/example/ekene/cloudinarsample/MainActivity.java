@@ -67,7 +67,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         if (resultCode == RESULT_OK && requestCode == INTENT_REQUEST_CODE && data != null && data.getData() != null) {
-            MediaManager.get().upload(data.getData()).callback(new UploadCallback() {
+            MediaManager.get().upload(data.getData())
+                    .option("folder","images/")
+                    .option("tags", "tag_1,tag_2")
+                     .callback(new UploadCallback() {
 
                 @Override
                 public void onStart(String requestId) {
